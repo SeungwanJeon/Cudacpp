@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{F182D56D-A213-4AA1-92C1-AB0D3EE67C2E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda_basic", "cuda_basic\cuda_basic.vcxproj", "{382CD0CF-50D8-45A6-83E7-E5ACC100A1B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,12 @@ Global
 		{F182D56D-A213-4AA1-92C1-AB0D3EE67C2E}.Release|x64.Build.0 = Release|x64
 		{F182D56D-A213-4AA1-92C1-AB0D3EE67C2E}.Release|x86.ActiveCfg = Release|Win32
 		{F182D56D-A213-4AA1-92C1-AB0D3EE67C2E}.Release|x86.Build.0 = Release|Win32
+		{382CD0CF-50D8-45A6-83E7-E5ACC100A1B9}.Debug|x64.ActiveCfg = Debug|x64
+		{382CD0CF-50D8-45A6-83E7-E5ACC100A1B9}.Debug|x64.Build.0 = Debug|x64
+		{382CD0CF-50D8-45A6-83E7-E5ACC100A1B9}.Debug|x86.ActiveCfg = Debug|x64
+		{382CD0CF-50D8-45A6-83E7-E5ACC100A1B9}.Release|x64.ActiveCfg = Release|x64
+		{382CD0CF-50D8-45A6-83E7-E5ACC100A1B9}.Release|x64.Build.0 = Release|x64
+		{382CD0CF-50D8-45A6-83E7-E5ACC100A1B9}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
